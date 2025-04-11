@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML basics</title>
+
+        <link rel="icon" href="html.png"> 
+    </head>
+
+    <body>
+        <h1 style="text-align:center; font-size:60px; background-color:powderblue;">TEST WEBSITE FOR HTML LEARNING</h1>
+        <p style="text-align:center">-------------Made strictly using HTML only by Alejandro Ortiz Vulturu-------------</p>
+        <br>
+        <h3><b>I have created this small website as a personal learning project. It contains the fundamentals of the HTML language in a very easy to digest form.</b></h3>
+        <hr>
+        <u><h2>HEADER TAG</h2></u>
+        <p>The heaer tag defines multiple headers that will be used across the website. You can set them by writing h and a number from 1 to 6 inbetween less then and higher than symbols.</p>
+        <p>Here's a small example to help you visualize them.</p>
+        <div style="border: 1px red;"padding:20px;font-size:20px"> <!-- I have no fucking clue why the border doesnt show-->
+        <h1>THIS IS THE FIRST HEADER</h1>
+        <h2>THIS IS THE SECOND HEADER</h2>
+        <h3>THIS IS THE THIRD HEADER</h3>
+        <h4>THIS IS THE FOURTH HEADER</h4>
+        <h5>THIS IS THE FIFTH HEADER</h5>
+        <h6>THIS IS THE SIXTH HEADER</h6>
+        </div>
+        <p>As you might have noticed, the header tag not only defines the size of the text, but it is also used to create a hierarchy - from most important to least imporant.</p>
+        <br>
+        <u><h2>PARAGRAPH TAG</h2></u>
+        <p>The paragraph tag is used to... well write a paragraph. You can use as many as you want and can style them in css. A paragraph will always start on a new line, ignoring spaces or new lines and It's defined by writing p between lower than and higher than symbols. Here's an example: </p>
+        <p>Hey! You! Im a paragraph. RAWR!</p>
+        <p>You can utilize various attributes to make simple paragraphs more interesting. The attributes are inserted in the specific tag you wish to modify and are formatted like this: xxx="yyy". Let me show you some:</p>
+        <p title="You rock">"title"- Displays a text when hovering the mouse over a paragraph. Go ahead, try to hover over this sentence.</p>
+        <p>"style" - Which lets you customize that specific paragraph, etiher by changing color, font or alignment. Look:</p> 
+        <p>Im a cool paragraph</p>
+        <p style="color:crimson; text-align:center; font-size:28px; font-family:verdana" >Im the cooler parapragh</p>
+        <p>"But what if I want to preserve spaces and lines in a paragraph?". Dont worry, we have...</p>
+        <br>
+        <u><h2>PREFORMATTED TEXT TAG</h2></u>
+        <p>Works just like the paragraph tag, but it will keep any spaces and lines. </p>
+        <pre>  
+            Roses are red,
+            Violets are blue
+            I can learn HTML
+            And so do you.
+        </pre>
+
+        <u><h2>LINK TAG</h2></u>
+        <p>The link tag, as the name suggests, is used in order to define a link that will redirect you towards another website. It consists in just an a between the symbols I mentioned in the tags above. But be careful! The text you write will not take you anywhere, you must set the link in the href attribute. The text in the tag link will then become said link. Im sure the example will help you understand better.</p>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">This is my favourite youtube video!</a>
+        <br>
+
+        <u><h2>THE IMAGE TAG</h2></u>
+        <br>
+
+        <p>This is the tag used to put cat images into your magnificent cat vlog. Its defined by the img tag and it makes use of a couple of attributes</p>
+        <p>These atributtes consist of: </p>
+        <p>"src" - In which you type the name and extension of the source file, basically the image itself. </p>
+        <p>"alt" - Indicates the alternative text.</p>
+        <p>"width" - Sets the width of the image (in pixels).</p>
+        <p>"height" - You guessed it, sets the height of the image (yes, pixels).</p>
+        <p>"alt"- Represents alternative text that will be displayed if the image in question cannot be found.</p>
+        <br>
+        <p>Now, of course I would let you down if I dont place an example - so I'll show you an image of my favourite cat breed:</p>
+        <img src="norwegiancat.jpg" alt="Photo of a norwegian forest cat"></img>
+
+        <u><h2>THE BR AND HR TAGS</h2></u>
+        <br>
+        <p>I've decided to include these two into the same category as they are quite similar - both are empty tags (no need to add a closing tag) used to create space between paragraphs or headings. However, there is a key difference:</p>
+        <p>BR adds a blank line, like this:</p>
+        <br>
+        <p>HR adds a space with a horizontal line across the website:</p>
+        <hr>
+        <p title="Good boy hehe">You might have noticed that I used one already to separate the title and the content.</p>
+        <p>Also, you can place br and hr in the middle of paragraphs.</p>
+        <br>
+
+        <u><h2>FORMATTING TAGS</h2></u>
+        <br>
+        <p>This is a collection of tags that are used in order to alter the text. They can be placed inside parragraph tags to select which part of the text you want to format.</p>
+        <p>b - Used for bold text: <b> Look at me im booooold</b></p>
+        <p>i - For italic text (remeber that tower in Italy?):  <i>Buongiorno raggazzi</i></p>
+        <p>strong - Behaves just like bold text, but remarks that the text is very important: <strong>This text is EXTREMELY important!</strong></p>
+        <p>em - Which emphasizes text and similar to the strong tag, its identical to his twin - the italic tag. Only difference is that the emphasis tag will make screen readers read aloud the defined text differently: <em>Use a screen reader, I dare you.</em></p>
+        <P>small - Pretty intuitive, makes the text be displayed way smaller: <small>Im small and cute</small></P>
+        <p>mark - Defines text that should be highlighted, similar to markers in notebooks: Today is a <mark>great</mark> day.</p>
+        <p>del - It slashes the indicated text with a horizontal line: The colour of the sky is <del> yellow </del> blue.</p>
+        <p>ins - Stands for inserted, it underlines text: An apple a day <ins>keeps the doctor away!</ins></p>
+        <p>sup - No, its not a greeting, its short for superscript. Superscripted text will be displayed half a character above the usual starting point for lines, and most of the times is displayed in a smaller font: <sup>This text is bananas.</sup></p>
+        <p>sub - Similar to its counterpart, only difference is that (you guessed it) the text will be displayed below the usual starting point: <sub>Down there! There's a text here.</sub></p>
+        <br>
+
+        <u><h2>QUOTATION TAGS</h2></u>
+        <br>
+        <p>This selection of tags is used in order to cite other websites, mark abbreviations or just quote... well... quotes.</p>
+        <br>
+        <p>q - This small basic tag is the one used to quote: <q>Quoth the raven... nevermore</q></p>
+        <p>blockquote - Quote tag's bigger brother. Blockquoted text will be placed in a new line. This tag is used to specify that the information has been taken from another source. Ill leave some info from one of my favourite bands - cited from wikipedia <blockquote cite="https://en.wikipedia.org/wiki/Slipknot_(band)">Slipknot is an American heavy metal band formed in Des Moines, Iowa, in 1995 by percussionist Shawn Crahan, drummer Joey Jordison and bassist Paul Gray.</blockquote></p>
+        <p>abbr - Ever wondered what a weird bunch of letters means? This tag is the solution. Mark abbreviations with this tag to specify their full meaning. Hovering the cursor over the acronym will reveal what it stands for: Ever wondered what <abbr title="Hyper Text Markup Language">HTML</abbr> stands for?</p>
+        <p>adress - Defines the contact information of the author. The text will be diplayed in italic and a line break will be added automatically. <adress> <br>Written by Jon Doe <br> Africa, Sahara desert</adress></p>
+        <p>cite - Remarks the title of a creative work - usually displayed in italics:</p>
+        <img src="night.jpg" alt="Starry Night by Vincent Van Gogh" width="600" height="500"> <cite>Starry Night</cite> Painting by Vincent Van Gogh</img>
+        <p>bbdo - Stands for bidirectional override, and it can change the direction of the text to left to right:  <bdo dir="rtl">Even freakier text lololo</bdo></p>
+        <br>
+        <u><h2>COMMENTS IN HTML</h2></u>
+        <br>
+        <p>Comments are a must have for anyone working in the IT industry, either in software or website development. They hide anything written in between them, basically said text is ignored by the compiler/not displayed.</p>
+        <p>Thus, they become a useful tool to document the code and make others understand what in the heck is written there. Unlike C++'s slashes, HTML comments are formatted in this way:</p>
+        <br>
+        <p>Obviously, I cannot show you how they are formatted by text as they are hidden automatically, so this image will do the job:</p>
+        <img src="comment.png" alt="How comments are formatted">
+        <p>Also, comments can span across multiple lines:</p>
+        <img src="multiple.png" alt="Comment spanning across multiple lines explaining the wabi-sabi philosophy">
+       </body>
+</html>
